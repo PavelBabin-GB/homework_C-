@@ -1,15 +1,15 @@
 ﻿// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее. 
 Console.WriteLine("Введите первое число: ");
-int nomberA = int.Parse(Console.ReadLine());
+int numberA = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
-int nomberB = int.Parse(Console.ReadLine());
-if (nomberB > nomberA)
+int numberB = int.Parse(Console.ReadLine());
+if (numberB > numberA)
 {
-    Console.WriteLine("MAX = " + nomberB);
-    Console.WriteLine("Min = " + nomberA);
+    Console.WriteLine("MAX = " + numberB);
+    Console.WriteLine("Min = " + numberA);
 }
 else
 {
-    Console.WriteLine("MAX = " + nomberA);
-    Console.WriteLine("Min = " + nomberB);
+    Console.WriteLine("MAX = " + numberA);
+    Console.WriteLine("Min = " + numberB);
 }
